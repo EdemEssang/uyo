@@ -1,0 +1,120 @@
+body{
+            background-color: blanchedalmond;
+            font-family: 'Spinnaker', sans-serif;
+            text-align: center;
+            margin: 0;
+}
+
+/* styling for the hero section begins here */
+
+.hero-div{
+            position: relative;
+            text-align: center;
+            width: 100%;
+}
+
+
+.hero-title{
+    
+            color: orange;
+            position: absolute;
+            text-shadow: 2px 2px 3px green;
+            top: 50%;
+            left: 50%;
+            font-family: inherit;
+            font-weight:bold;
+            font-size: 40px;
+            transform: translate(-50%, -50%);
+}
+
+
+.hero-text{
+            margin-top: 60px;
+            color: orange;
+            position: absolute;
+            text-shadow: 2px 2px 3px black;
+            top: 50%;
+            left: 50%;
+            width: fit-content;
+            padding-top: 30px;
+            font-family: inherit;
+            font-size:30px;
+            transform: translate(-50%, -50%);
+}
+
+.hero-img{
+
+            opacity: 0.8;
+            width: 100%;
+}
+
+.hero-img:hover{
+            opacity: 0.5;
+}
+/* Styling for the hero section ends here */
+
+
+/* styling for the tour section begins here */
+
+#tour-section{
+            display: flex;
+            justify-content: space-around;
+            background-image: linear-gradient( white, orange);
+            padding: 20px 10px;
+        
+}
+
+.tour1, .tour2, .tour3{
+            display: flex;
+            flex-direction: column;
+            padding: 40px  20px;
+} 
+
+.tour-img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            border: 1px  solid wheat;
+            transition: transform .2s;
+}
+
+/* makes the tour-image zoom on hover */
+.tour-img:hover{
+            transform: scale(1.5);
+}
+.tour-heading{
+    margin-top: 50px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+/* styling for the tour section ends here */
+
+/* styling for the card begins here */
+#card{
+
+            margin: 50px  auto;
+            text-align: center;
+            color: #2b2839;
+            border-bottom: 8px solid #d8cefe;
+            background-color: #ddebf8;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 400px;
+            padding-bottom: 40px;
+            background-image: linear-gradient( white, orange);
+            
+
+}
+
+.card-image{
+            width: 150px;
+            border-radius: 5px;
+}
+
+.aboutme-text{
+    padding: 5px 5px ;
+}
+
